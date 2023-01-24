@@ -8,7 +8,7 @@ The DSL that I chose is Regualr Languages or Regex Expressions. The reason why I
 
 _Describe the language's domain in five words._
 
-external DSL applying pattern recognition 
+External DSL applying pattern recognition 
 
 # Computational model
 
@@ -31,19 +31,20 @@ Regular Languages fall in the spectrum of more "purely" domain-specific becuase 
 _Is the language implemented as an internal or external DSL?
 Justify your answer._
 
-Regular Languages are an external DSL becuase it is utalized as a tool within other main stream languages such as java and python. 
+Regular Languages are an external DSL becuase it is utalized as a tool within other main stream languages such as java and python. Additionally, Regular languages are in themselves a differnt language from the host language in which they are used and require differnt syntax then the host language. 
 
 # Host language
 
 _What language(s) was (were) used to implement the DSL?_
 
+The first implamentaion of regualr expressions was created by Ken Thompson, who implemented the idea of regular expressions inside the text editor called ed. Later in the late 80's, Larry Wall built a Perl programming language that helped regular expressions become mainstream. Now, regualr expressions are supported by modern programming languages, text processing programs and text editors. They can often be found in many of todays Java and Python projects. [Link to History of Regex](https://scantopdf.com/blog/the-history-of-regex/)
 
 # Benefits
 
 _Identify one potential benefit of the DSL: how is a programmer's life made
 easier by the existence of this language?_
 
-Regular expressions make a programmer's life easier by analyzing strings for patterns. AKA pattern recogintion. This makes the programers life easier becuase they do not have to define a program to find a pattern in a string instead they can simply use a Regular expression.
+Regular expressions make a programmer's life easier by analyzing strings for patterns. AKA pattern recogintion. This makes the programers life easier becuase they do not have to define a program to find a pattern in a string instead they can simply use a Regular expression which will find the pattern in a stringg for them.
 
 # Drawbacks
 
