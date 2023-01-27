@@ -1,0 +1,12 @@
+startshape sierpinski
+background { hue 0 sat 1 b -1 }
+rule tr{
+ TRIANGLE{hue 300 sat .7 b 0.2}
+}
+rule sierpinski {
+ tr{} // for better contrast
+ sierpinski {s 0.5 y 0.288 b 0.1}
+ sierpinski {s 0.5 x -0.25 y -0.144 b 0.1}
+ sierpinski {s 0.5 x 0.25 y -0.144 b 0.1}
+ 
+}
